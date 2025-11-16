@@ -1,6 +1,6 @@
 import React from "react";
-import ServicesSidebar from "../../ServicesSidebar";
-import PageBanner from "../../PageBanner";
+import ServicesSidebar from "../ServicesSidebar";
+import PageBanner from "../PageBanner";
 
 const OldAge =() =>{
   return (

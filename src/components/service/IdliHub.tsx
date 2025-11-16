@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import PageBanner from "../../PageBanner";
-import ServicesSidebar from "../../ServicesSidebar";
+import PageBanner from "../PageBanner";
+import ServicesSidebar from "../ServicesSidebar";
 
 const IdliHub =() =>{
   return (

@@ -1,4 +1,4 @@
-import CovidWidowWomen from '../../../components/servicess/subComponents/CovidWidowWomen'
+import CovidWidowWomen from '../../../components/service/CovidWidowWomen'
 
 import React from 'react'
 

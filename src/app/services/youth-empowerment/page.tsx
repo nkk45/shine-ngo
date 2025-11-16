@@ -1,4 +1,4 @@
-import YouthEmpowerment from '../../../components/servicess/subComponents/YouthsEmpowerment'
+import YouthEmpowerment from '../../../components/service/YouthsEmpowerment'
 import React from 'react'
 
 const page = () => {

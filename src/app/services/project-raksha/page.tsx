@@ -1,4 +1,4 @@
-import ProjectRaksha from '../../../components/servicess/subComponents/ProjectRaksha'
+import ProjectRaksha from '../../../components/service/ProjectRaksha'
 import React from 'react'
 
 const page = () => {

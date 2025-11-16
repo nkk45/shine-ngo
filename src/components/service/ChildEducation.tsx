@@ -1,6 +1,6 @@
 import React from "react";
-import PageBanner from "../../PageBanner";
-import ServicesSidebar from "../../ServicesSidebar";
+import PageBanner from "../PageBanner";
+import ServicesSidebar from "../ServicesSidebar";
 
 const ChildEducation = () => {
   return (

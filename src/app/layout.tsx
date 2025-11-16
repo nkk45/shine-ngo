@@ -35,7 +35,6 @@ export default function RootLayout({
                 <Navbar />
         {children}
         <WhatsAppButton />
-        
         <Footer />
       </body>
     </html>

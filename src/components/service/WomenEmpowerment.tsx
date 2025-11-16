@@ -1,11 +1,11 @@
 import React from 'react'
-import PageBanner from '../../PageBanner'
-import ServicesSidebar from '../../ServicesSidebar'
+import PageBanner from '../PageBanner'
+import ServicesSidebar from '../ServicesSidebar'
 
-const ProjectRaksha = () => {
+const WomenEmpowerment = () => {
   return (
      <div>
-         <PageBanner title="Project Raksha" image="/service/servicebg.png" />
+         <PageBanner title="Women Empowerment" image="/service/servicebg.png" />
    
          <section className="w-full max-w-7xl mx-auto py-16 px-52 md:flex gap-10">
            {/* LEFT CONTENT */}
@@ -29,10 +29,11 @@ const ProjectRaksha = () => {
              </ul>
            </div>
    
-           <ServicesSidebar active="Project Raksha" />
+           {/* RIGHT SIDEBAR */}
+           <ServicesSidebar active="Women Empowerment" />
          </section>
        </div>
   )
 }
 
-export default ProjectRaksha
+export default WomenEmpowerment

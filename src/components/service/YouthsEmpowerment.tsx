@@ -1,5 +1,5 @@
-import PageBanner from "../../PageBanner";
-import ServicesSidebar from "../../ServicesSidebar";
+import PageBanner from "../PageBanner";
+import ServicesSidebar from "../ServicesSidebar";
 
 
 export default function YouthEmpowerment() {

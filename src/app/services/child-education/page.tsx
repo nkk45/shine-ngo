@@ -1,4 +1,4 @@
-import ChildEducation from '../../../components/servicess/subComponents/ChildEducation'
+import ChildEducation from '../../../components/service/ChildEducation'
 import React from 'react'
 
 const page = () => {
