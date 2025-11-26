@@ -125,9 +125,9 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="bg-[#FF7518] text-white px-4 py-4 rounded-xl font-bold text-[10px] leading-[100%] font-raleway">
+          <Link href="/donate" className="bg-[#FF7518] text-white px-4 py-4 rounded-xl font-bold text-[10px] leading-[100%] font-raleway">
             DONATE NOW!
-          </button>
+          </Link>
 
           {/* Mobile Menu button */}
           <button
