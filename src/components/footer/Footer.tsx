@@ -34,12 +34,12 @@ const Footer = () => {
             <Link href="/about" className="hover:text-[#FF7A3E] cursor-pointer">
               About us
             </Link>
-            <Link
+            {/* <Link
               href="/services"
               className="hover:text-[#FF7A3E] cursor-pointer"
             >
               Services
-            </Link>
+            </Link> */}
             <Link
               href="/success-stories"
               className="hover:text-[#FF7A3E] cursor-pointer"
