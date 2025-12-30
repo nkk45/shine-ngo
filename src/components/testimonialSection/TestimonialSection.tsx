@@ -67,7 +67,8 @@ const TestimonialSection: React.FC = () => {
             Together, we heal
           </p>
           <h2 className="mt-3 text-xl md:text-3xl font-extrabold tracking-wide text-amber-600 uppercase">
-            A Testimonial on Supporting Our Ashram
+           A Testimonial on Supporting Our Shine ngo old age home
+
           </h2>
           <div className="mt-4 flex justify-center">
             <span className="h-[2px] w-16 rounded-full bg-amber-500"></span>

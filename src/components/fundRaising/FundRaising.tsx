@@ -11,9 +11,9 @@ export default function FundRaising() {
       description: "Share a meal, spread love—donate today to fight hunger!",
     },
     {
-      src: "/camp.webp",
+      src: "/service/oldage.jpg",
       slug: "image-2",
-      title: "Temple Construction",
+      title: "old age home ",
       description:
         "Join hands to build a sacred legacy—let's construct a temple of faith, unity, and devotion!.",
     },
