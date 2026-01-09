@@ -4,7 +4,6 @@ import ServicesSidebar from "../ServicesSidebar";
 import Image from "next/image";
 import Razorpay from "../razorpay/Razorpay";
 const oldAgeImages = [
-  { src: "/service/Oldagehome/IMG-20250815-WA0019.jpg" },
   { src: "/service/Oldagehome/oldage.jpg" },
 { src: "/service/Oldagehome/oldage1.jpg" },
 { src: "/service/Oldagehome/oldage2.jpg" },
