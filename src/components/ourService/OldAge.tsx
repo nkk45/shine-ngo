@@ -1,79 +1,177 @@
 import React from "react";
-import ServicesSidebar from "../ServicesSidebar";
 import PageBanner from "../PageBanner";
-import Razorpay from "../razorpay/Razorpay";
+import ServicesSidebar from "../ServicesSidebar";
 import Image from "next/image";
+import Razorpay from "../razorpay/Razorpay";
 
-const OldAge =() =>{
+const OldAge = () => {
   return (
- <div >
-       <PageBanner title="Old Age Women" image="/service/servicebg.png" />
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 py-10 px-4">
-        {/* LEFT CONTENT */}
-        <div className="md:col-span-2 space-y-6 text-[#333] text-sm leading-relaxed">
-          <h2 className="text-xl font-bold">Shine Old Age Home (FREE)</h2>
+    <div>
+      <PageBanner title="Old Age Women" image="/service/servicebg.png" />
 
-          <p>Welcome to Shine Old Age Home (FREE)</p>
-            <Image src="/service/Oldagehome/oldage.jpg"  alt="Idli Hub Image" width={800} height={400} className="mb-4"/>
-          <h3 className="font-semibold mt-4">Our Services (All Free of Charge)</h3>
-          <ul className="list-disc ml-6">
-            <li>Safe & Clean Accommodation</li>
-            <li>Nutritious Meals</li>
-            <li>Regular Health Check-ups & Medical Care</li>
-            <li>Cultural / Recreational Activities</li>
-            <li>Personal Care with Respect & Love</li>
-          </ul>
+      <div className=" grid grid-cols-1 md:grid-cols-3 gap-10  px-20">
 
-          <h3 className="font-semibold">Address of Shine Old Age Home</h3>
-          <p>
-            Hyderabad, Telangana<br />
-            Near XYZ Road, ABC Colony<br />
-            Contact: 98765 43210
-          </p>
+        {/* ================= LEFT CONTENT ================= */}
+        <div className="md:col-span-2 space-y-14">
 
-          <h3 className="font-semibold">Why Shine Old Age Home Matters</h3>
-          <p>
-            Many elderly individuals face loneliness, illness, and lack of
-            support. Shine NGO provides a safe environment filled with care and
-            dignity.
-          </p>
-            <Image src="/service/Oldagehome/oldage1.JPG"  alt="Idli Hub Image" width={800} height={400} className="mb-4"/>
+          {/* Header */}
+          <section>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
+              Welcome to Shine Old Age Home
+            </h1>
+            <p className="mt-2 text-lg text-gray-600">
+              A Safe Haven for Elderly Women in Need
+            </p>
+          </section>
 
-          <h3 className="font-semibold">How You Can Help</h3>
-          <ul className="list-disc ml-6">
-            <li>Donate food / groceries</li>
-            <li>Sponsor medicines</li>
-            <li>Support monthly expenses</li>
-            <li>Volunteer your time</li>
-            <li>Visit and motivate the elderly</li>
-          </ul>
+          {/* Introduction */}
+          <section className="text-gray-700 leading-relaxed">
+            <p>
+              At <strong>Shine Old Age Home</strong>, we offer a secure, loving,
+              and supportive environment for elderly women who lack family
+              support or are living alone. Our mission is to provide
+              compassionate care and ensure that every resident experiences
+              dignity, respect, and comfort during their golden years.
+            </p>
+          </section>
 
-          <h3 className="font-semibold">See Their Smiles</h3>
-          <p>Visit us and spend time with the residents. Your presence means a lot.</p>
+          {/* Services */}
+          <section>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              Our Services – All Free of Charge
+            </h2>
 
-          <h3 className="font-semibold">Who Can Join</h3>
-          <p>
-            Elderly citizens with no family support, those abandoned or living
-            alone, and senior citizens needing assistance.
-          </p>
+            <p className="text-gray-700 mb-6">
+              We believe that every elderly woman deserves the opportunity to
+              live with peace, health, and joy.
+            </p>
 
-          <h3 className="font-semibold">About Shine NGO</h3>
-          <p>
-            Shine NGO runs multiple free services including old age homes,
-            orphan support, and education programs.
-          </p>
-            <Image src="/service/Oldagehome/oldage2.JPG"  alt="Idli Hub Image" width={800} height={400} className="mb-4"/>
+            <Image
+              src="/service/Oldagehome/oldage1.JPG"
+              alt="Old Age Home Services"
+              width={800}
+              height={400}
+              className="rounded-lg mb-6 w-full"
+            />
 
-          <h3 className="font-semibold">Together, Let’s Make Aging Beautiful</h3>
-          <p>For service, donations or visits, contact Shine NGO.</p>
+            <ul className="space-y-4 list-disc list-inside text-gray-700">
+              <li>
+                <strong>Safe & Clean Accommodation:</strong> Comfortable,
+                well-maintained living spaces.
+              </li>
+              <li>
+                <strong>Nutritious Meals:</strong> Fresh, balanced food for a
+                healthy lifestyle.
+              </li>
+              <li>
+                <strong>Regular Health Check-ups & Medical Care:</strong>
+                Continuous medical support.
+              </li>
+              <li>
+                <strong>Cultural & Recreational Activities:</strong> Programs
+                that promote joy and togetherness.
+              </li>
+              <li>
+                <strong>Personal Care with Respect & Love:</strong> Individual
+                attention with dignity.
+              </li>
+            </ul>
+          </section>
+
+          {/* Why It Matters */}
+          <section>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              Why Shine Old Age Home Matters
+            </h2>
+
+            <Image
+              src="/service/Oldagehome/oldage2.JPG"
+              alt="Why Old Age Home Matters"
+              width={800}
+              height={400}
+              className="rounded-lg mb-6 w-full"
+            />
+
+            <p className="text-gray-700">
+              In today’s world, many elderly women face loneliness, neglect, and
+              health challenges. Shine Old Age Home offers them companionship,
+              respect, and a caring environment where they truly belong.
+            </p>
+          </section>
+
+          {/* How You Can Help */}
+          <section>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              How You Can Help
+            </h2>
+
+            <ul className="space-y-3 list-disc list-inside text-gray-700">
+              <li>Donate Food & Groceries</li>
+              <li>Sponsor Medicines</li>
+              <li>Support Monthly Expenses</li>
+              <li>Volunteer Your Time</li>
+              <li>Visit and Motivate the Elderly</li>
+            </ul>
+          </section>
+
+          {/* Visit Section */}
+          <section>
+            <h2 className="text-2xl font-bold text-gray-800 mb-3">
+              Your Visit, Their Greatest Happiness
+            </h2>
+            <p className="text-gray-700">
+              Sometimes, all it takes is a visit to make a huge difference.
+              Spending time with our elderly residents brings joy, emotional
+              support, and hope into their lives.
+            </p>
+          </section>
+
+          {/* Who Can Join */}
+          <section>
+            <h2 className="text-2xl font-bold text-gray-800 mb-3">
+              Who Can Join?
+            </h2>
+            <p className="text-gray-700">
+              We welcome elderly women facing abandonment, living alone, or
+              without family support. Shine Old Age Home is a safe place to call
+              home.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-800 mb-3">
+              About Shine NGO
+            </h2>
+            <p className="text-gray-700">
+              Shine NGO is committed to serving communities in need through free
+              initiatives such as old age care, orphan support, education, and
+              women empowerment programs.
+            </p>
+          </section>
+
+          {/* Contact */}
+          <section className="bg-gray-100 p-6 rounded-lg">
+            <h2 className="text-xl font-bold mb-3">Contact Information</h2>
+            <p>
+              <strong>Location:</strong> H.No: 2, 86/3/P/78, Opp. Line Deccan
+              Bawarchi, Raganna Guda, Turkayamjal, Hyderabad – 501510
+            </p>
+            <p><strong>Phone:</strong> +91 80999 90221</p>
+            <p><strong>Email:</strong> info@shinengo.org</p>
+          </section>
+
+          {/* Donate */}
           <Razorpay />
         </div>
- <ServicesSidebar active="Old Age Women" />
-      </div>
 
+        {/* ================= RIGHT SIDEBAR ================= */}
+        <aside className="md:col-span-1 sticky top-24 h-fit">
+          <ServicesSidebar active="Old Age Women" />
+        </aside>
+
+      </div>
     </div>
   );
-}
-
+};
 
 export default OldAge;

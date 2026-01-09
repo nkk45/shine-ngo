@@ -8,21 +8,34 @@ import TestimonialSection from '../components/testimonialSection/TestimonialSect
 import TrustedTestimonials from '../components/testimonialSection/TrustedTestimonials'
 import LatestUpdates from '../components/latestUpdates/LatestUpdates'
 import LatestPosts from '../components/latestPosts/LatestPosts'
+import PopupAnnouncement from '../components/PopupAnnouncement'
+
+
+const latestPost = {
+  title: "🌟 New Post Published!",
+  message: "Check out our latest article on how to support elderly women in need.",
+  imageUrl: "/updates/update-popup.jpg", 
+};
+
 
 const page = () => {
   return (
     <div>
- <main>
-   <Slider />
-  <AboutUs />
-  <FundRaising />
-  <Cause />
-  <TestimonialSection />
-  <TrustedTestimonials />
-  <LatestUpdates />
-  <LatestPosts />
-<HeroSupportSection />
- </main>
+ <PopupAnnouncement
+        title={latestPost.title}
+        message={latestPost.message}
+        imageUrl={latestPost.imageUrl}
+      />      <main>
+        <Slider />
+        <AboutUs />
+        <FundRaising />
+        <Cause />
+        <TestimonialSection />
+        <TrustedTestimonials />
+        <LatestUpdates />
+        <LatestPosts />
+        <HeroSupportSection />
+      </main>
     </div>
   )
 }
