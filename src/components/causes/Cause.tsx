@@ -24,10 +24,10 @@ const Cause: React.FC = () => {
           {/* item 1 */}
           <div className="max-w-xs px-2">
             <div className="mb-2 text-4xl font-bold text-[#444] md:text-[42px]">
-              650+
+              50+
             </div>
             <p className="text-sm leading-relaxed text-[#555]">
-              We provide daily food for mentally disabled orphans
+              Old age people was serving 
             </p>
           </div>
 
@@ -37,10 +37,10 @@ const Cause: React.FC = () => {
           {/* item 2 */}
           <div className="max-w-xs px-2">
             <div className="mb-2 text-4xl font-bold text-[#444] md:text-[42px]">
-              15k+
+               2 lakhs
             </div>
             <p className="text-sm leading-relaxed text-[#555]">
-              Supporting our cause with generosity since 2010
+              Plates of breakfast was provided 
             </p>
           </div>
 
