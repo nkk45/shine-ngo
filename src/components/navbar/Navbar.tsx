@@ -61,7 +61,6 @@ const Navbar =() =>{
               <div className="absolute left-0 top-full min-w-[260px] bg-white shadow-[0_4px_20px_rgba(0,0,0,0.12)] rounded-md py-3 z-50">
                 <div className="flex flex-col font-medium">
                   {[
-                    { href: "/services/old-age-home", label: "Old Age Home" },
                     { href: "/services/rs5-idli-hub", label: "Rs.5 Idli Hub" },
                     { href: "/services/child-education", label: "Child Education" },
                     { href: "/services/covid-widow-women", label: "Covid Widow Women" },
@@ -82,7 +81,9 @@ const Navbar =() =>{
               </div>
             )}
           </div>
-
+  <Link href="/services/old-age-home" className="text-[#fe7f4c]">
+            Old Age Home
+          </Link>
           <Link href="/success-stories" className="text-[#fe7f4c]">
             Success Stories
           </Link>
@@ -124,6 +125,10 @@ const Navbar =() =>{
         <div className="lg:hidden  flex flex-col bg-white text-black cursor-pointer border-t p-4 space-y-4 font-raleway font-bold text-md">
           <Link href="/" >HOME</Link>
           <Link href="/about">About Us</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/services/old-age-home" className="text-[#fe7f4c]">
+            Old Age Home
+          </Link>
           <Link href="/success-stories">Success Stories</Link>
           <Link href="/updates">Latest Updates</Link>
           <Link href="/gallery">Gallery</Link>

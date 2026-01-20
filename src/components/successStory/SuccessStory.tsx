@@ -24,10 +24,10 @@ const SuccessStory =() => {
       link: "/success-stories/durga",
     },
   {
-    name: "Joshna",
-    desc: "Joshna's Journey: From Car Driver to Beauty Entrepreneur",
-    image: "/stories/placeholder.jpg",
-    link: "/success-stories/joshna",
+    name: "Lalitha",
+    desc: "Lalitha's Beauty Revolution: From Family Support to Business Success",
+    image: "/stories/Lalitha.jpg",
+    link: "/success-stories/lalitha",
   
   },
   {
@@ -37,7 +37,13 @@ const SuccessStory =() => {
     link: "/success-stories/sridevi",
   
   },
-
+  {
+    name: "Sneha",
+    desc: "Sneha,'s Journey of Empowerment through the Hope Project",
+    image:"/stories/Sneha.jpg",
+    link: "/success-stories/sneha",
+  
+  },
   ];
 
   return (

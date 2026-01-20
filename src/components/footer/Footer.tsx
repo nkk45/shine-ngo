@@ -52,6 +52,12 @@ const Footer = () => {
             >
               Latest Updates
             </Link>
+             <Link
+              href="/financials"
+              className="hover:text-[#FF7A3E] cursor-pointer"
+            >
+              Financials
+            </Link>
             <Link
               href="/contact"
               className="hover:text-[#FF7A3E] cursor-pointer"

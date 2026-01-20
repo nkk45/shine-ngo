@@ -27,10 +27,10 @@ const successStories = [
     disabled: false,
   },
   {
-    name: "Joshna",
-    desc: "Joshna's Journey: From Car Driver to Beauty Entrepreneur",
-    image: "/stories/placeholder.jpg",
-    href: "/success-stories/joshna",
+    name: "Lalitha",
+    desc: "Lalitha's Beauty Revolution: From Family Support to Business Success",
+    image: "/stories/Lalitha.jpg",
+    href: "/success-stories/lalitha",
     disabled: false,
   },
   {
@@ -40,6 +40,13 @@ const successStories = [
     href: "/success-stories/sridevi",
     disabled: false,
   },
+  {
+    name: "Sneha",
+    desc: "Sneha,'s Journey of Empowerment through the Hope Project",
+    image:"/stories/Sneha.jpg",
+    href: "/success-stories/sneha",
+    disabled: false,
+  }
 
 ];
 

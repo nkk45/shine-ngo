@@ -27,10 +27,10 @@ const successStories = [
     disabled: false,
   },
   {
-   name: "Lalitha",
-    desc: "Lalitha's Beauty Revolution: From Family Support to Business Success",
+    name: "Lalitha",
+    desc: "Joshna's Journey: From Car Driver to Beauty Entrepreneur",
     image: "/stories/Lalitha.jpg",
-    href: "/success-stories/lalitha",
+    href: "/success-stories/laitha",
     disabled: false,
   },
   {
@@ -49,66 +49,53 @@ const successStories = [
   },
 ];
 
-const DurgaStory = () => {
+const JoshnaStory = () => {
   return (
     <div className="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
       {/* Main Content */}
       <div className="flex-1 max-w-4xl">
         <h1 className="text-3xl font-bold mb-6">
-          Durga's Journey: From Teacher to Entrepreneur
+          Lalitha's Beauty Revolution: From Family Support to Business Success
         </h1>
 
         <p className="mb-4">
-          Durga, a young woman from Hyderabad, India, had always faced economic
-          challenges. Her family's income was modest, and her limited education
-          made it difficult to secure a stable job. Despite these obstacles,
-          Durga was determined to improve her life and contribute to her
-          community.{" "}
+          A turning point arrived when Lalitha discovered the HOPE Project,
+          implemented by the SHINE NGO. The project offered vocational training
+          courses, including one in beauty therapy. Intrigued by the prospect of
+          learning a new skill, she enrolled in the course, balancing her
+          studies with her family responsibilities.{" "}
         </p>
 
         <p className="mb-4">
-          Her journey took a significant turn when she became involved in the
-          Hope Project, a community development initiative implemented by the
-          SHINE NGO. The project offered various programs, including vocational
-          training, skill development, and financial literacy. Durga enrolled in
-          a business management course, hoping to acquire the skills needed to
-          start her own venture.{" "}
+          With unwavering determination and the support of her family, Lalitha
+          excelled in the beauty therapy course. She developed a passion for
+          transforming people's appearance and honed her skills in various
+          techniques, from skincare to makeup application. Upon completing the
+          course, she emerged with a newfound sense of confidence and purpose.
         </p>
 
         <p className="mb-4">
-          With the support of the project's dedicated mentors and instructors,
-          Durga excelled in her studies. She quickly grasped the business
-          concepts and demonstrated a natural aptitude for entrepreneurship. The
-          project also provided her with opportunities to gain practical
-          experience through internships and workshops, allowing her to apply
-          her newfound knowledge in real-world settings.{" "}
+          Determined to make the most of her newfound expertise, Lalitha decided
+          to start her own beauty salon. Initially, building a clientele was
+          challenging, but her dedication, talent, and exceptional customer
+          service soon paid off. Word of her skills spread, and her salon became
+          a popular destination for people seeking beauty treatments.
         </p>
 
         <p className="mb-4">
-          After completing the course, Durga was inspired to start her own small
-          business. With the financial assistance and guidance provided by the
-          Hope Project, she opened a neighborhood grocery store. Her business,
-          initially small, quickly gained popularity due to Durga's excellent
-          customer service and competitive pricing.{" "}
+          Lalitha's success story is a testament to the power of education,
+          empowerment, and family support. The HOPE Project played a crucial
+          role in transforming her life by providing her with the skills and
+          opportunities she needed to succeed. Today, she is a thriving beauty
+          therapist, running a successful salon and inspiring others to pursue
+          their dreams. Her journey serves as a reminder that with
+          determination, hard work, and the right support, anyone can overcome
+          obstacles and achieve their goals, even in the face of adversity.
         </p>
 
-        <p className="mb-4">
-          As her business grew, Durga realized that she needed to expand her
-          knowledge and skills. She enrolled in additional courses offered by
-          the Hope Project, focusing on marketing, inventory management, and
-          financial planning. These courses equipped her with the tools she
-          needed to take her business to the next level.{" "}
-        </p>
-        <p className="mb-4">
-          Durga's success story is a testament to the power of education and
-          empowerment. The Hope Project played a crucial role in providing her
-          with the necessary resources and support to achieve her goals. By
-          investing in her future, Durga was able to transform her life and
-          create opportunities for herself and her family.
-        </p>
         <Image
-          src="/stories/durga.jpg"
-          alt="Saritha"
+          src="/stories/Lalitha.jpg"
+          alt=""
           width={400}
           height={400}
           className="mt-6 rounded-lg object-cover"
@@ -148,7 +135,7 @@ const DurgaStory = () => {
                   <p className="truncate text-xs">{story.desc}</p>
                 </div>
               </Link>
-            )
+            ),
           )}
         </div>
         <Link
@@ -162,4 +149,4 @@ const DurgaStory = () => {
   );
 };
 
-export default DurgaStory;
+export default JoshnaStory;

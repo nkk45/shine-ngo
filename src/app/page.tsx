@@ -30,7 +30,6 @@ const page = () => {
         <AboutUs />
         <FundRaising />
         <Cause />
-        <TestimonialSection />
         <TrustedTestimonials />
         <LatestUpdates />
         <LatestPosts />

@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shine NGO in Hyderabad for Women Empowerment, Oldage Home | Shine NGO",
+  title: "Best NGO in Hyderabad | CSR Partner for Education & Empowerment",
   description:
-    "Shine NGO is a Hyderabad-based non-profit organization dedicated to women empowerment, old age care, child education, and social welfare.",
+    "Shine NGO is a leading CSR partner NGO in Hyderabad focused on education and empowerment initiatives that transform lives and communities.",
   verification: {
     google: "wyaLHAwrkWnApUoHN6r31Q9QbDx3-dh4saPd6FVkuxQ",
   },

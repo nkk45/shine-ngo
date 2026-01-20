@@ -1,4 +1,3 @@
-// pages/success-stories/saritha.tsx
 "use client";
 
 import Image from "next/image";
@@ -27,88 +26,88 @@ const successStories = [
     disabled: false,
   },
   {
-    name: "Joshna",
-    desc: "Joshna's Journey: From Car Driver to Beauty Entrepreneur",
-    image: "/stories/placeholder.jpg",
-    href: "/success-stories/joshna",
+    name: "Lalitha",
+    desc: "Lalitha's Beauty Revolution: From Family Support to Business Success",
+    image: "/stories/Lalitha.jpg",
+    href: "/success-stories/lalitha",
     disabled: false,
   },
   {
     name: "Sri Devi",
     desc: "Sri Devi Triumph: From Tailor to Business Owner",
-    image: "/stories/placeholder.jpg",
+    image: "/stories/Sridevi.jpg",
     href: "/success-stories/sridevi",
     disabled: false,
   },
   {
-    name: "Kavitha",
-    desc: "Kavitha's Triumph: From Computer Operator to Entrepreneurial Success",
-    image: "/stories/placeholder.jpg",
-    href: "/success-stories/kavitha",
+    name: "Sneha",
+    desc: "Sneha,'s Journey of Empowerment through the Hope Project",
+    image: "/stories/Sneha.jpg",
+    href: "/success-stories/sneha",
     disabled: false,
   },
 ];
 
-const JoshnaStory = () => {
+const SnehaStory = () => {
   return (
     <div className="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
       {/* Main Content */}
       <div className="flex-1 max-w-4xl">
         <h1 className="text-3xl font-bold mb-6">
-          Joshna's Journey: From Car Driver to Beauty Entrepreneur
+          Sneha,'s Journey of Empowerment through the Hope Project
         </h1>
 
         <p className="mb-4">
-          Joshna, a young woman from Hyderabad, India, had always faced economic
-          challenges. Her family's income was modest, and her limited education
-          made it difficult to secure a stable job. Despite these obstacles,
-          Joshna was determined to improve her life and contribute to her
-          community.{" "}
+          Sneha, a young woman from Hyderabad, India, had always faced
+          significant challenges. Her family's financial situation was
+          precarious, and her limited education made it difficult to find a
+          stable job. Despite these obstacles, Sneha had a burning desire to
+          improve her life and contribute to her community.
         </p>
 
         <p className="mb-4">
-          Her journey took a significant turn when she became involved in the
-          Hope Project, a community development initiative implemented by the
-          SHINE NGO. The project offered various programs, including vocational
-          training, skill development, and financial literacy. Joshna enrolled
-          in a beauty course, hoping to acquire the skills needed to start her
-          own business.{" "}
+          Her journey took a turning point when she became involved in the Hope
+          Project, a community development initiative implemented by the SHINE
+          NGO. The project offered various programs, including vocational
+          training, skill development, and financial literacy. Sneha enrolled in
+          the electrical technician course, hoping to acquire the skills needed
+          to secure a better job.
         </p>
 
         <p className="mb-4">
           With the support of the project's dedicated mentors and instructors,
-          Joshna excelled in her studies. She quickly grasped the technical
-          aspects of beauty treatments and demonstrated a natural talent for
-          styling. The project also provided her with opportunities to gain
-          practical experience through internships and workshops, allowing her
-          to apply her newfound knowledge in real-world settings.{" "}
+          Sneha excelled in her studies. She quickly grasped the technical
+          concepts and demonstrated a natural aptitude for electrical work. The
+          project also provided her with opportunities to gain practical
+          experience through internships and workshops, allowing her to apply
+          her newfound knowledge in real-world settings.
         </p>
 
         <p className="mb-4">
-          After completing the course, Joshna was inspired to start her own
-          beauty salon. With the financial assistance and guidance provided by
-          the Hope Project, she opened a small salon in her neighborhood. Her
-          business, initially small, quickly gained popularity due to Joshna's
-          exceptional skills and commitment to customer satisfaction.{" "}
+          After completing the course, Sneha was determined to use her newfound
+          skills to improve her family's circumstances. She applied for numerous
+          jobs and, with perseverance, eventually landed a position as an
+          electrical technician at a local construction company. Her new job
+          provided her with a stable income and a sense of accomplishment.
         </p>
 
         <p className="mb-4">
-          As her business grew, Joshna realized that she needed to expand her
-          knowledge and skills. She enrolled in additional courses offered by
-          the Hope Project, focusing on marketing, business management, and
-          financial planning. These courses equipped her with the tools she
-          needed to take her business to the next level.{" "}
+          Through the Hope Project, Sneha not only acquired the skills she
+          needed to succeed professionally but also gained confidence and a
+          renewed sense of purpose. She became a role model for other women in
+          her community, inspiring them to overcome their challenges and pursue
+          their dreams.
         </p>
         <p className="mb-4">
-          Joshna's success story is a testament to the power of education and
+          Sneha's story is a testament to the power of education and
           empowerment. The Hope Project played a crucial role in providing her
-          with the necessary resources and support to achieve her goals. By
-          investing in her future, Joshna was able to transform her life and
-          create opportunities for herself and her family.
+          with the necessary tools and support to achieve her goals. By
+          investing in her future, Sneha was able to transform her life and make
+          a positive impact on her c ommunity.
         </p>
         <Image
-          src="/stories/placeholder.jpg"
-          alt=""
+          src="/stories/Sneha.jpg"
+          alt="Saritha"
           width={400}
           height={400}
           className="mt-6 rounded-lg object-cover"
@@ -148,7 +147,7 @@ const JoshnaStory = () => {
                   <p className="truncate text-xs">{story.desc}</p>
                 </div>
               </Link>
-            )
+            ),
           )}
         </div>
         <Link
@@ -162,4 +161,4 @@ const JoshnaStory = () => {
   );
 };
 
-export default JoshnaStory;
+export default SnehaStory;
