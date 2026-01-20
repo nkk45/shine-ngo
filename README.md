@@ -7,10 +7,6 @@ First, run the development server:
 
 npm install
 
-Second, run the development server:
-
-```bash
-
 npm run dev
 # or
 yarn dev
