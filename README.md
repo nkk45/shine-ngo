@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 git clone  https://github.com/nkk45/shine-ngo
+
 First, run the development server:
 
 ```bash
