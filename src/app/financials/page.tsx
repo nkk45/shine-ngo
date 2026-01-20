@@ -1,4 +1,4 @@
-import Financials from '@/src/components/financials/Financials'
+import Financials from '../../components/financials/Financials'
 import React from 'react'
 
 const page = () => {
