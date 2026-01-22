@@ -80,6 +80,7 @@ const testimonials: Testimonial[] = [
   },
 ];
 
+
 const TrustedTestimonials: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [expandedId, setExpandedId] = useState<number | null>(null);
