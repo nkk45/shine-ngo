@@ -1,14 +1,13 @@
 import React from 'react'
 import Slider from '../components/slider/Slider'
-import AboutUs from '../components/AboutUs'
 import HeroSupportSection from '../components/heroSupportSection/HeroSupportSection'
 import FundRaising from '../components/fundRaising/FundRaising'
 import Cause from '../components/causes/Cause'
-import TestimonialSection from '../components/testimonialSection/TestimonialSection'
 import TrustedTestimonials from '../components/testimonialSection/TrustedTestimonials'
 import LatestUpdates from '../components/latestUpdates/LatestUpdates'
 import LatestPosts from '../components/latestPosts/LatestPosts'
 import PopupAnnouncement from '../components/PopupAnnouncement'
+import Welcome from '../components/welocme/Welcome'
 
 
 const latestPost = {
@@ -27,7 +26,7 @@ const page = () => {
         imageUrl={latestPost.imageUrl}
       />      <main>
         <Slider />
-        <AboutUs />
+        <Welcome />
         <FundRaising />
         <Cause />
         <TrustedTestimonials />

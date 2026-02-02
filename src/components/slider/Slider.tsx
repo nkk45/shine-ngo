@@ -2,69 +2,109 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import Image from "next/image";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Image from "next/image";
 
-const Slider =() => {
+const Slider = () => {
   return (
     <div className="relative w-full">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
-        loop={true}
+        loop
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
-        }}
-        navigation={{
-          nextEl: ".next-btn",
-          prevEl: ".prev-btn",
         }}
         pagination={{
           clickable: true,
-          bulletClass:
-            "swiper-pagination-bullet bg-gray-300 rounded-full opacity-70 transition-all",
-          bulletActiveClass:
-            "swiper-pagination-bullet-active bg-gray-500 opacity-100 w-6",
         }}
         className="h-[500px]"
       >
-        {/* Slides */}
+        {/* Slide 1 */}
         <SwiperSlide>
-          <Image
-            src="/home/slider-bg-1-1.png"
-            className="w-full h-full object-cover"
-            width={100}
-            height={100}
-            alt={""}
-          />
+          <div className="relative w-full h-[500px]">
+            <Image
+              src="/about/1.jpeg"
+              alt="About image 1"
+              fill
+              priority
+              quality={100}
+              className="object-cover"
+            />
+          </div>
         </SwiperSlide>
 
+        {/* Slide 2 */}
         <SwiperSlide>
-          <Image
-            src="/home/slider-bg-1-2.png"
-            className="w-full h-full object-cover"
-            width={100}
-            height={100}
-            alt={""}
-          />
+          <div className="relative w-full h-[500px]">
+            <Image
+              src="/about/2.jpeg"
+              alt="About image 2"
+              fill
+              quality={100}
+              className="object-cover"
+            />
+          </div>
         </SwiperSlide>
 
+        {/* Slide 3 */}
         <SwiperSlide>
-          <Image
-            src="/home/slider-bg-1-3.png"
-            className="w-full h-full object-cover"
-            width={100}
-            height={100}
-            alt={""}
-          />
+          <div className="relative w-full h-[500px]">
+            <Image
+              src="/about/4.jpeg"
+              alt="About image 3"
+              fill
+              quality={100}
+              className="object-cover"
+            />
+          </div>
+        </SwiperSlide>
+
+        {/* Slide 4 */}
+        <SwiperSlide>
+          <div className="relative w-full h-[500px]">
+            <Image
+              src="/about/5.jpeg"
+              alt="About image 4"
+              fill
+              quality={100}
+              className="object-cover"
+            />
+          </div>
+        </SwiperSlide>
+
+        {/* Slide 5 */}
+        <SwiperSlide>
+          <div className="relative w-full h-[500px]">
+            <Image
+              src="/about/6.jpeg"
+              alt="About image 5"
+              fill
+              quality={100}
+              className="object-cover"
+            />
+          </div>
+        </SwiperSlide>
+
+        {/* Slide 6 */}
+        <SwiperSlide>
+          <div className="relative w-full h-[500px]">
+            <Image
+              src="/about/7.jpeg"
+              alt="About image 6"
+              fill
+              quality={100}
+              className="object-cover"
+            />
+          </div>
         </SwiperSlide>
       </Swiper>
-
     </div>
   );
-}
+};
+
 export default Slider;

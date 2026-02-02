@@ -179,14 +179,14 @@ const TrustedTestimonials: React.FC = () => {
                       : item.text}
                   </p>
 
-                  {isLong && (
+                  {/* {isLong && (
                     <button
                       onClick={() => toggleReadMore(item.id)}
                       className="mt-3 text-xs font-semibold uppercase tracking-wide text-amber-600"
                     >
                       {isExpanded ? "Read Less ‹" : "Read More ›"}
                     </button>
-                  )}
+                  )} */}
                 </article>
               );
             })}

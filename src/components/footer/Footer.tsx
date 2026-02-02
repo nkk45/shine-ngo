@@ -89,8 +89,7 @@ const Footer = () => {
             className="flex items-start gap-3 text-gray-300 leading-relaxed hover:text-[#FF7A3E] cursor-pointer"
           >
             <FaMapMarkerAlt />
-            82, Garib Thota, DWCRA Building, A.V. Extension II, Hayathnagar,
-            Turkayamjal, Hyderabad, Telangana
+           HNo :2, 86/3/P/78, opp. Line Deccan Bawarchi, Raganna Guda, Turkayamjal, Hyderabad, Telangana 501510
           </Link>
         </div>
       </div>
