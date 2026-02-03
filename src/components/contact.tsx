@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import { Phone, Mail, MapPin } from "lucide-react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Contact Us | Shine NGO",
@@ -13,10 +8,9 @@ export const metadata: Metadata = {
     "Get in touch with Shine NGO for support, volunteering, or donations.",
 };
 
-const Contact =() =>{
+const Contact = () => {
   return (
     <main className="w-full bg-gray-50">
-
       {/* Breadcrumb */}
       <section
         className="relative h-[260px] flex items-center justify-center bg-cover bg-center"
@@ -31,7 +25,6 @@ const Contact =() =>{
       {/* Contact Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-14">
-
           {/* Left Info */}
           <div className="bg-white rounded-xl shadow-md p-8">
             <span className="text-orange-500 font-semibold tracking-wide">
@@ -86,7 +79,7 @@ const Contact =() =>{
                   >
                     <Icon />
                   </a>
-                )
+                ),
               )}
             </div>
           </div>
@@ -97,16 +90,24 @@ const Contact =() =>{
               Send us a Message
             </h3>
 
-            <form className="space-y-6">
+            <form
+             action="mailto:nirmalkumarkilari45@gmail.com"
+  method="POST"
+
+              className="space-y-6"
+            >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <input
                   type="text"
+                  name="Name"
                   placeholder="Your Name"
                   className="w-full border border-gray-300 rounded-md px-4 py-3 focus:ring-2 focus:ring-orange-400 focus:outline-none"
                   required
                 />
+
                 <input
                   type="text"
+                  name="Phone"
                   placeholder="Phone"
                   className="w-full border border-gray-300 rounded-md px-4 py-3 focus:ring-2 focus:ring-orange-400 focus:outline-none"
                   required
@@ -115,16 +116,27 @@ const Contact =() =>{
 
               <input
                 type="email"
+                name="Email"
                 placeholder="Your Email"
                 className="w-full border border-gray-300 rounded-md px-4 py-3 focus:ring-2 focus:ring-orange-400 focus:outline-none"
                 required
               />
 
+              <input
+                type="text"
+                name="Location"
+                placeholder="Your Location"
+                className="w-full border border-gray-300 rounded-md px-4 py-3 focus:ring-2 focus:ring-orange-400 focus:outline-none"
+                required
+              />
+
               <textarea
+                name="Message"
                 placeholder="Write Your Message"
                 rows={5}
                 className="w-full border border-gray-300 rounded-md px-4 py-3 focus:ring-2 focus:ring-orange-400 focus:outline-none resize-none"
-              ></textarea>
+                required
+              />
 
               <button
                 type="submit"
@@ -134,13 +146,10 @@ const Contact =() =>{
               </button>
             </form>
           </div>
-
         </div>
       </section>
-
     </main>
   );
-}
-
+};
 
 export default Contact;
